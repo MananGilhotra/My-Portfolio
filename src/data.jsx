@@ -140,7 +140,7 @@ export const projects = [
     description: `This portfolio is built using React and styled with CSS, 
                   showcasing my skills in modern front-end development. From intuitive UI to smooth user interactions, every section 
                   reflects my love for clean code and great design.`,
-    demoLink: "",
+    demoLink: "https://gleaming-babka-c743d3.netlify.app/",
     stacks: [
       {
         name: "React",

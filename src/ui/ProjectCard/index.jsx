@@ -1,5 +1,5 @@
 import "./ProjectCard.css"
-const ProjectCard = ({ title, category, image, description, stacks }) => {
+const ProjectCard = ({ title, category, image, description, stacks, demoLink }) => {
   return (
     <div className="card project__card">
       <div className="project__card-top">
@@ -18,6 +18,16 @@ const ProjectCard = ({ title, category, image, description, stacks }) => {
           </div>
         </div>
           <p className="text__muted description">{description}</p>
+          {demoLink && (
+            <a
+              href={demoLink}
+              className="demo__button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Demo
+            </a>
+          )}
         <div className="flex__center stacks">
           {stacks.map((stack,index)=>(
             <div className="stack" key={index}>
