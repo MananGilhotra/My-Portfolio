@@ -3,8 +3,26 @@ import "./Contact.css"
 import Pyramid from "../../ui/Pyramid"
 import SocialHandles from "../../ui/SocialHandles";
 import { BsFillSendFill } from "react-icons/bs";
+import { useState } from "react";
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+  
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    alert("Message sent successfully!");
+    
+  };
   return (
+    
     <section id="contact">
       <div className="section__wrapper">
         <div className="pyramid__container">
@@ -45,26 +63,36 @@ const Contact = () => {
             </div>
             <SocialHandles/>
           </div>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input
               type="text"
               placeholder="Your full name"
               name="name"
+              value={formData.name}
+              onChange={handleChange}
               required
             />
             <input
               type="email"
               placeholder="Your email"
               name="email"
+              value={formData.email}
+              onChange={handleChange}
               required
             />
-            <textarea name="message" rows={7} placeholder="Your message"></textarea>
-            <button type="button" className="btn flex__center submit__btn">
-               <div className="icon"><BsFillSendFill/></div>
-               <span>Send Now</span>
-    
+            <textarea
+              name="message"
+              rows={7}
+              placeholder="Your message"
+              value={formData.message}
+              onChange={handleChange}
+            ></textarea>
+            <button type="submit" className="btn flex__center submit__btn">
+              <div className="icon"><BsFillSendFill /></div>
+              <span>Send Now</span>
             </button>
           </form>
+
         </div>
       </div>
 
