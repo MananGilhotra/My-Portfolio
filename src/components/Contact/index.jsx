@@ -32,8 +32,8 @@ const Contact = () => {
           <div>
             <h3 className="title">
               Let's talk on your <span
-              className="shine">greate project</span>{" "}
-              together
+              className="shine">great project together</span>{" "}
+              
             </h3>
             <div className="flex contact__options">
               {contactInfo.map((contact, index)=>(
