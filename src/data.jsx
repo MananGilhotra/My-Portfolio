@@ -1,7 +1,6 @@
 import { FaPaintBrush } from "react-icons/fa";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { FaCodeCompare } from "react-icons/fa6";
-import { GiIdea } from "react-icons/gi";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
