@@ -5,7 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import { SiLeetcode, SiPython } from "react-icons/si";
-import {SiCodeforces} from "react-icons/si"
+import { SiCodeforces } from "react-icons/si"
 import {
   project1,
   project2,
@@ -68,25 +68,35 @@ export const services = [
 
 export const projects = [
   {
-    title: "Study Buddy",
+    title: "KarZone",
     image: project1,
     category: "Web",
-    description: `Study Buddy is a smart web application designed to help students stay focused, organized, and motivated throughout
-     their academic journey. It brings together essential tools in one place, 
-     making studying more efficient and less stressful`,
-    demoLink: "https://studybuddy-indol.vercel.app/",
+    description: `MERN Stack Car Rental System with user booking and admin management.
+JWT Authentication & Role-Based Access Control.
+Admin CRUD Dashboard for cars and bookings.
+Optimized UI with search, filter, sort, and pagination.
+Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
+    demoLink: "https://kar-zone.vercel.app/",
     stacks: [
       {
-        name: "html",
-        logo: html,
+        name: "React",
+        logo: react,
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "Tailwind CSS",
+        logo: tailwind,
       },
       {
-        name: "JavaScript",
-        logo: javascript,
+        name: "Node.js",
+        logo: nodejs,
+      },
+      {
+        name: "MongoDB",
+        logo: mongodb,
+      },
+      {
+        name: "Express.js",
+        logo: express,
       },
     ],
   },

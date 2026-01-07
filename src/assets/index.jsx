@@ -1,7 +1,7 @@
 export { default as profile1 } from "./IMG_6731_enhanced-removebg-preview.png";
 
 //Projects images export
-export { default as project1 } from "./project12.png";
+export { default as project1 } from "./karzone.png";
 export { default as project2 } from "./project13.png";
 export { default as project3 } from "./project14.png";
 export { default as project4 } from "./project15.png";
