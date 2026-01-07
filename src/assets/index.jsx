@@ -20,3 +20,7 @@ export { default as reactnative } from "./icons/reactnative.svg";
 export { default as emailicon } from "./icons/email.png";
 export { default as messengericon } from "./icons/messenger.png";
 export { default as whatsappicon } from "./icons/whatsapp.png";
+export { default as mysql } from "./icons/mysql.svg";
+export { default as nodejs } from "./icons/nodejs.svg";
+export { default as mongodb } from "./icons/mongodb.svg";
+export { default as express } from "./icons/express.svg";

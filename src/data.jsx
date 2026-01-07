@@ -24,6 +24,10 @@ import {
   emailicon,
   messengericon,
   whatsappicon,
+  mysql,
+  nodejs,
+  mongodb,
+  express,
 } from "./assets";
 
 export const menu = [
@@ -110,19 +114,19 @@ export const projects = [
     ],
   },
   {
-    title: "Capstone Project",
+    title: "Food delivery App",
     image: project3,
     category: "Web",
-    description: `frontend art gallery landing page`,
-    demoLink: "https://google.com/",
+    description: `A dynamic food delivery application that connects users with local restaurants,`,
+    demoLink: "https://foodtrackerr.netlify.app",
     stacks: [
       {
-        name: "html",
-        logo: html,
+        name: "React",
+        logo: react,
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "Tailwind CSS",
+        logo: tailwind,
       },
     ],
   },
@@ -166,6 +170,16 @@ export const skills = [
         level: "Intermediate",
         logo: xd,
       },
+      {
+        skill: "MySQL",
+        level: "Basic",
+        logo: mysql,
+      },
+      {
+        skill: "MongoDB",
+        level: "Basic",
+        logo: mongodb,
+      },
     ],
   },
   {
@@ -195,6 +209,16 @@ export const skills = [
         skill: "React",
         level: "Intermediate",
         logo: react,
+      },
+      {
+        skill: "Node.js",
+        level: "Intermediate",
+        logo: nodejs,
+      },
+      {
+        skill: "Express.js",
+        level: "Intermediate",
+        logo: express,
       },
     ],
   },

@@ -11,7 +11,7 @@ const HeaderTitle = () => {
         Gilhotra,
       </text>
       <text className="header__title" x="50" y="260" fontSize="64" fill="#FFFFFF" fontWeight="bold">
-        Frontend Developer.
+        Full-stack Developer.
       </text>
 
       <g className="cursor-motion">
