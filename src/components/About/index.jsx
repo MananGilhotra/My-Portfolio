@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id='about'>
       <div className="card section__wrapper">
-        <Hole/>
+        <Hole />
         <div className="column left-column">
           <h3 className="skill__title">My Skills</h3>
           <div className="skills__container">
@@ -25,22 +25,23 @@ const About = () => {
             ))}
 
           </div>
-            <CardUi className="card__ui-item" color={"var(--color-primary)"} />
-          </div>
-          <div className="column right-column">
-            <h2 className="shine">About Me</h2>
-            <h1 className="title">
-              I am <span className="color__primary">Manan Gilhotra</span>
-            </h1>
-            <p className="text__muted description">
-            Currently pursuing B.Tech in CS and DS at Newton School of Technology.
-            Passionate front-end developer with hands-on experience in building responsive and user-friendly web interfaces. 
-            Skilled in HTML, CSS, JavaScript, and React, with a strong focus on clean design and performance. Adept at turning UI/UX designs into functional web applications 
-            and continuously learning to stay updated with the latest front-end trends.
-            </p>
-          </div>
+          <CardUi className="card__ui-item" color={"var(--color-primary)"} />
         </div>
-    
+        <div className="column right-column">
+          <h2 className="shine">About Me</h2>
+          <h1 className="title">
+            I am <span className="color__primary">Manan Gilhotra</span>
+          </h1>
+          <p className="text__muted description">
+            Currently pursuing B.Tech in CS and DS at Newton School of Technology.
+            Passionate full stack developer with hands-on experience in building responsive, scalable, and user-friendly web applications.
+            Proficient in the MERN stack (MongoDB, Express.js, React, Node.js) along with HTML, CSS, JavaScript, and Tailwind CSS.
+            I specialize in developing end-to-end solutions from intuitive front-end interfaces to robust back-end systems,
+            ensuring seamless user experiences and high-performance applications.
+          </p>
+        </div>
+      </div>
+
     </section>
   )
 }

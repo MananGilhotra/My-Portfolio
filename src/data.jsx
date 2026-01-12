@@ -40,29 +40,29 @@ export const menu = [
 
 export const services = [
   {
-    title: "UI/UX Design",
+    title: "Frontend Development",
     icon: <FaPaintBrush />,
-    description: `Crafting visually stunning and user-centric designs that ensure seamless user experiences. 
-                  From wireframes to high-fidelity prototypes, I focus on creating intuitive interfaces that 
-                  blend creativity and functionality, enhancing engagement and usability.`,
+    description: `Building responsive, visually stunning, and user-friendly web interfaces using modern technologies. 
+                  Proficient in HTML, CSS, JavaScript, React, and Tailwind CSS to create seamless user experiences 
+                  with clean design, smooth animations, and optimal performance across all devices.`,
   },
   {
-    title: "Web Development",
+    title: "Backend Development",
     icon: <FaCodeCompare />,
     color: "blueviolet",
     colorRGB: "138, 43, 226",
-    description: `Building responsive, dynamic, and high-performance websites tailored to your needs. 
-    Using modern technologies like React, javaScript and more, I ensure your site is optimized 
-    for speed, scalability, and accessibility, delivering a robust online presence.`,
+    description: `Developing robust and scalable server-side applications using Node.js and Express.js. 
+    Experienced in designing RESTful APIs, implementing authentication systems, database management with 
+    MongoDB and MySQL, ensuring secure, efficient, and maintainable backend architectures.`,
   },
   {
-    title: "Python Developer",
+    title: "DSA in Python",
     icon: <SiPython />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",
-    description: `I am proficient in the core concepts of Python and capable of building small-scale applications, 
-    automating tasks, and writing clean, readable code. I understand how to use Python built-in data types, 
-    control structures, functions, and libraries to create efficient and practical solutions.`,
+    description: `Strong foundation in Data Structures and Algorithms using Python. Skilled in problem-solving 
+    with arrays, linked lists, trees, graphs, dynamic programming, and more. Actively practicing on 
+    platforms like LeetCode and Codeforces to continuously sharpen competitive programming skills.`,
   },
 ];
 
@@ -163,37 +163,7 @@ Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
 
 export const skills = [
   {
-    title: "Skills",
-    data: [
-      {
-        skill: "Figma",
-        level: "Basic",
-        logo: figma,
-      },
-      {
-        skill: "Canva",
-        level: "Intermediate",
-        logo: sketch,
-      },
-      {
-        skill: "Python",
-        level: "Intermediate",
-        logo: xd,
-      },
-      {
-        skill: "MySQL",
-        level: "Basic",
-        logo: mysql,
-      },
-      {
-        skill: "MongoDB",
-        level: "Basic",
-        logo: mongodb,
-      },
-    ],
-  },
-  {
-    title: "Development Skills",
+    title: "Frontend Skills",
     data: [
       {
         skill: "HTML",
@@ -212,7 +182,7 @@ export const skills = [
       },
       {
         skill: "Tailwind",
-        level: "Basic",
+        level: "Intermediate",
         logo: tailwind,
       },
       {
@@ -220,6 +190,11 @@ export const skills = [
         level: "Intermediate",
         logo: react,
       },
+    ],
+  },
+  {
+    title: "Backend Skills",
+    data: [
       {
         skill: "Node.js",
         level: "Intermediate",
@@ -229,6 +204,21 @@ export const skills = [
         skill: "Express.js",
         level: "Intermediate",
         logo: express,
+      },
+      {
+        skill: "MongoDB",
+        level: "Intermediate",
+        logo: mongodb,
+      },
+      {
+        skill: "MySQL",
+        level: "Basic",
+        logo: mysql,
+      },
+      {
+        skill: "Python",
+        level: "Intermediate",
+        logo: xd,
       },
     ],
   },
