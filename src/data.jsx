@@ -17,6 +17,7 @@ import {
   css,
   html,
   javascript,
+  typescript,
   tailwind,
   bootstrap,
   react,
@@ -76,7 +77,7 @@ JWT Authentication & Role-Based Access Control.
 Admin CRUD Dashboard for cars and bookings.
 Optimized UI with search, filter, sort, and pagination.
 Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
-    demoLink: "https://kar-zone.vercel.app/",
+    demoLink: "https://kar-zone-yh2q.vercel.app/",
     stacks: [
       {
         name: "React",
@@ -97,6 +98,56 @@ Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
       {
         name: "Express.js",
         logo: express,
+      },
+    ],
+  },
+  {
+    title: "NewsLens",
+    image: project4,
+    category: "Web",
+    description: `Full Stack AI News Aggregator using MERN (MongoDB, Express, React, Node.js).
+AI-Powered Summarization & Fact-Checking using SambaNova (Llama-3.1).
+Real-Time Credibility Scoring algorithm for news source verification.
+Secure Authentication with JWT & Password Hashing.`,
+    demoLink: "https://news-lens-fawn.vercel.app/",
+    stacks: [
+      {
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "Tailwind CSS",
+        logo: tailwind,
+      },
+      {
+        name: "Node.js",
+        logo: nodejs,
+      },
+      {
+        name: "MongoDB",
+        logo: mongodb,
+      },
+      {
+        name: "Express.js",
+        logo: express,
+      },
+
+    ],
+  },
+  {
+    title: "Food delivery App",
+    image: project3,
+    category: "Web",
+    description: `A dynamic food delivery application that connects users with local restaurants,`,
+    demoLink: "https://foodtrackerr.netlify.app",
+    stacks: [
+      {
+        name: "React",
+        logo: react,
+      },
+      {
+        name: "Tailwind CSS",
+        logo: tailwind,
       },
     ],
   },
@@ -123,42 +174,6 @@ Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
       },
     ],
   },
-  {
-    title: "Food delivery App",
-    image: project3,
-    category: "Web",
-    description: `A dynamic food delivery application that connects users with local restaurants,`,
-    demoLink: "https://foodtrackerr.netlify.app",
-    stacks: [
-      {
-        name: "React",
-        logo: react,
-      },
-      {
-        name: "Tailwind CSS",
-        logo: tailwind,
-      },
-    ],
-  },
-  {
-    title: "My Portfolio",
-    image: project4,
-    category: "Web",
-    description: `This portfolio is built using React and styled with CSS, 
-                  showcasing my skills in modern front-end development. From intuitive UI to smooth user interactions, every section 
-                  reflects my love for clean code and great design.`,
-    demoLink: "https://gleaming-babka-c743d3.netlify.app/",
-    stacks: [
-      {
-        name: "React",
-        logo: react,
-      },
-      {
-        name: "CSS",
-        logo: css,
-      },
-    ],
-  },
 ];
 
 export const skills = [
@@ -179,6 +194,11 @@ export const skills = [
         skill: "JavaScript",
         level: "Intermediate",
         logo: javascript,
+      },
+      {
+        skill: "TypeScript",
+        level: "Intermediate",
+        logo: typescript,
       },
       {
         skill: "Tailwind",

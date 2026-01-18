@@ -4,7 +4,7 @@ export { default as profile1 } from "./IMG_6731_enhanced-removebg-preview.png";
 export { default as project1 } from "./karzone.png";
 export { default as project2 } from "./project13.png";
 export { default as project3 } from "./project14.png";
-export { default as project4 } from "./project15.png";
+export { default as project4 } from "./project16.png";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";
@@ -13,6 +13,7 @@ export { default as xd } from "./icons/python.svg";
 export { default as css } from "./icons/css.svg";
 export { default as html } from "./icons/html.svg";
 export { default as javascript } from "./icons/javascript.svg";
+export { default as typescript } from "./icons/typescript.svg";
 export { default as tailwind } from "./icons/tailwind.svg";
 export { default as bootstrap } from "./icons/bootstrap.svg";
 export { default as react } from "./icons/react.svg";
