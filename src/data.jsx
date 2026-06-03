@@ -77,7 +77,7 @@ JWT Authentication & Role-Based Access Control.
 Admin CRUD Dashboard for cars and bookings.
 Optimized UI with search, filter, sort, and pagination.
 Cloud Deployed on Vercel, Render, and MongoDB Atlas.`,
-    demoLink: "https://kar-zone-yh2q.vercel.app/",
+    demoLink: "https://kar-zone-5fd8.vercel.app/",
     stacks: [
       {
         name: "React",
